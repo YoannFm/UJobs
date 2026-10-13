@@ -1,0 +1,64 @@
+name: UJobs
+version: '${project.version}'
+main: me.usainsrht.ujobs.UJobsPlugin
+loader: me.usainsrht.ujobs.UJobsPluginLoader
+api-version: '1.21'
+authors: [ UsainSrht ]
+description: 'The job plugin.'
+folia-supported: true
+dependencies:
+  server:
+    Vault:
+      required: false
+      load: BEFORE
+      join-classpath: true
+
+    PlaceholderAPI:
+      load: BEFORE
+      required: false
+      join-classpath: true
+
+    Citizens:
+      required: false
+      load: BEFORE
+      join-classpath: true
+    FancyNpcs:
+      required: false
+      load: BEFORE
+      join-classpath: true
+
+    FancyHolograms:
+      required: false
+      load: BEFORE
+      join-classpath: true
+    DecentHolograms:
+      required: false
+      load: BEFORE
+      join-classpath: true
+    HolographicDisplays:
+      required: false
+      load: BEFORE
+      join-classpath: true
+
+
+    UTimber:
+      required: false
+      load: BEFORE
+      join-classpath: true
+
+    ItemsAdder:
+      required: false
+      load: BEFORE
+      join-classpath: true
+    Oraxen:
+      required: false
+      load: BEFORE
+      join-classpath: true
+    Nexo:
+      required: false
+      load: BEFORE
+      join-classpath: true
+    CraftEngine:
+      required: false
+      load: BEFORE
+      join-classpath: true
